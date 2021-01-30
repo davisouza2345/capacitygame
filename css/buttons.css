@@ -1,0 +1,31 @@
+.initBtn{
+    margin-top: 10px;
+    width: clamp(100px, 2vw, 200px);
+    padding: 10px;
+    background: #4691bd;
+    border-radius: 10px;
+    border: 1px solid #00a2ff;
+    color: #fff;
+}
+.nextOpt{
+    margin: 10px auto;
+    width: clamp(100px, 2vw, 200px);
+    padding: 10px;
+    background: #4691bd;
+    border-radius: 10px;
+    border: 1px solid #00a2ff;
+    color: #fff;
+}
+
+.moreRounds{
+    margin-top: 10px;
+    width: clamp(100px, 2vw, 200px);
+    padding: 10px;
+    background: #4691bd;
+    border-radius: 10px;
+    border: 1px solid #00a2ff;
+    color: #fff;
+    animation: roundAnimation 2s;
+    margin: auto;
+
+}

@@ -1,0 +1,16 @@
+@keyframes load{
+    to{transform: rotate(360deg);}
+}
+
+@keyframes roundAnimation{
+    from{
+        position: relative;
+        left: 45%;
+        overflow: hidden;
+    }
+    to{
+        position: relative;
+        left: 0 ;
+        overflow: hidden   ;
+    }
+}
