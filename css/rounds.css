@@ -1,0 +1,49 @@
+#rounds{
+    text-align: center;
+
+}
+.round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.roundTitle{
+    font-size: clamp(25px, 4vw, 30px);
+    animation: roundAnimation 1s;
+}
+
+#battle{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    column-gap: 20px;
+    padding:  10px 20px;
+    animation: roundAnimation 1.5s;
+    
+}
+
+#battle div{
+    font-size: clamp(16px, 2vw, 20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #333;
+    padding: 10px;
+    word-break: break-all;
+
+}
+#battle div span{
+    margin: 0px 5px;
+}
+
+#battle:nth-child(odd)::after{
+    content:"V.S.";
+    position: fixed;
+    left: 140px;
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+
+
