@@ -12,9 +12,7 @@ const battle = document.getElementById('battle')
 
 rounds.style.display = "none"
 
-function appendList(){
 
-}
 function random(max) {
     return Math.floor(Math.random() * max + 1)
 
@@ -72,7 +70,7 @@ document.querySelector('.nextOpt').addEventListener('click', (ev)=>{
                 const div = document.createElement("div")
                 const span = document.createElement("span")
                 const players = document.createTextNode(listOfNames[i])
-                const point = document.createTextNode(random(10))
+                const point = document.createTextNode(random(5))
                 span.appendChild(point)
                 div.appendChild(players)
                 div.appendChild(span)
@@ -89,7 +87,7 @@ document.querySelector('.nextOpt').addEventListener('click', (ev)=>{
                     document.getElementById('load').style.display = "none"
                     
                     rounds.style.display = "block"
-                    appendList()
+                    
                    
 
                     const roundsSystem = document.createElement('button')
@@ -122,7 +120,8 @@ document.querySelector('.nextOpt').addEventListener('click', (ev)=>{
                             const div = document.createElement("div")
                             const span = document.createElement("span")
                             const players = document.createTextNode(listOfNames[i])
-                            const point = document.createTextNode(random(10))
+                            const point = document.createTextNode(random(5))
+
                             span.appendChild(point)
                             div.appendChild(players)
                             div.appendChild(span)
